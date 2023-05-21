@@ -2,22 +2,6 @@
 
 This code is a series of steps taken to predict the amount of gold recovered from gold ore.
 
-# Description
-The code is divided into several parts:
-
-* Data Loading
-* Data Preprocessing
-* Exploratory Data Analysis (EDA)
-* Feature Selection
-* Model Training
-* Model Evaluation
-
-The code first attempts to load data from three csv files:
-
-* gold_recovery_train_new.csv
-* gold_recovery_test_new.csv
-* gold_recovery_full_new.csv
-
 # Data Preprocessing
 The code then preprocesses the loaded data by:
 
