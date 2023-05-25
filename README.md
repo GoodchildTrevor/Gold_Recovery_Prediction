@@ -18,10 +18,9 @@ The code performs exploratory data analysis, including:
 * Plotting histograms to show the concentration of metals at different stages.
 * Plotting KDE plots to show the feed size distributions of the training and testing datasets.
 * Plotting the total concentrations of all substances at different stages.
+* The code cleans the data by removing any zero values for concentrations in the training dataset and aligns the training and test datasets to have the same set of columns.
 
 # Workflow
-* **Feature Selection**
-<br>The code cleans the data by removing any zero values for concentrations in the training dataset and aligns the training and test datasets to have the same set of columns.
 
 * **Model Training**
 <br>The code uses three models for training: Decision Tree, Random Forest, and Linear Regression. Hyperparameters for the tree-based models are determined by grid search.
